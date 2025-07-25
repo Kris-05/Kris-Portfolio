@@ -4,6 +4,10 @@ import { BiMailSend } from "react-icons/bi";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
+const SERVICE_KEY = import.meta.env.VITE_SERVICE_KEY;
+const TEMPLATE_KEY = import.meta.env.VITE_TEMPLATE_KEY;
+const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
+
 const Contact = () => {
   const formRef = useRef();
   const [showContactHint, setShowContactHint] = useState(false);
@@ -14,8 +18,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_vg364su", "template_rsc49ci", formRef.current, {
-        publicKey: "kc9lUIxWGJtkb8Njl",
+      .sendForm(SERVICE_KEY, TEMPLATE_KEY, formRef.current, {
+        publicKey: PUBLIC_KEY,
       })
       .then(
         () => {
@@ -96,7 +100,7 @@ const Contact = () => {
               type="email"
               required
               placeholder="Email"
-              name="email"
+              name="user_email"
             />
           </div>
           <motion.div className="relative">
@@ -119,7 +123,7 @@ const Contact = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.2 }}
               >
-                Pls include contact info (email may fail)
+                Please add alternate contact info (like phone, linkedin)
               </motion.span>
             )}
           </motion.div>

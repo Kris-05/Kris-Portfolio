@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from './Card';
 
 const Qualifications = () => {
@@ -8,19 +7,22 @@ const Qualifications = () => {
       a: "College of Engineering - Guindy",
       b: "Chennai",
       c: "2022 - 2026",
-      d: "BE - Computer Science & Engineering" 
+      d: "BE - Computer Science & Engineering",
+      grade : "CGPA: 8.83/10"
     },
     { 
       a: "Sri Ramakrishna Vidyalaya Matric. Hr. Sec. School",
       b: "Tiruppur",
       c: "2020 - 2022",
-      d: "Higher Secondary Education (HSLC)" 
+      d: "Higher Secondary Education (HSLC)",
+      grade : "HSC: 98.6%"
     },
     { 
       a: "Government Higher Sec. School - Anupparpalayam",
       b: "Tiruppur",
       c: "2018 - 2020",
-      d: "Secondary Education (SSLC)" 
+      d: "Secondary Education (SSLC)",
+      grade : "SSLC: 98%"
     },
   ];
 
@@ -29,19 +31,22 @@ const Qualifications = () => {
       a: "Hackathon Winner", 
       b: "Byte Bash - Kurukshetra'25 by BNY", 
       c: "Feb 2025", 
-      d: "Built an AI-powered adaptive assessment system using Llama-3.2; personalized quizzes and dynamic difficulty." 
+      d: "Built an AI-powered adaptive assessment system using Llama-3.2; personalized quizzes and dynamic difficulty.",
+      link : "https://www.linkedin.com/posts/krisna-vj_bny-hackathon-machinelearning-activity-7311342849189429248-Y2L1?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEcf-eIBlAMIjQuevKcMaccQcqPCw-_ZNXc"
     },
     {
-      a: "Round 3 Finalist", 
+      a: "Top 0.4% (Round 3)", 
       b: "Flipkart GRiD 6.0 - Robotics Challenge", 
       c: "08/2024 - 12/2024", 
-      d: "Developed an ML model to detect produce freshness, extract expiry dates, and identify branded products; reached Round 3 but not for National Finale" 
+      d: "Developed an ML model to detect produce freshness, extract expiry dates, and identify branded products; reached Round 3 but not for National Finale",
+      link : "https://github.com/Gopinathv19/FlipKartGrid6.0"
     },
     { 
       a: "Continuous Proficiency Award", 
       b: "Junior High School", 
       c: "2013 - 2017", 
-      d: "Honored with the Five-Year Continuous Proficiency Award for outstanding academic performance" 
+      d: "Honored with the Five-Year Continuous Proficiency Award for outstanding academic performance",
+      link : "https://www.linkedin.com/in/krisna-vj/"
     },
     // { 
     //   a: "Published Research Paper", 
@@ -59,28 +64,31 @@ const Qualifications = () => {
     //   d: "Appointed as Placement Ambassador for CUIC to represent our dept"
     // },
     { 
+      a: "Director of Logistics", 
+      b: "ACM - CEG", 
+      c: "05/2025 - Present", 
+      d: "Managed event logistics including venue booking, permissions, resource setup, registrations, team coordination and real-time troubleshooting.",
+      link : "https://drive.google.com/file/d/17SNbx7s0fhHod6qNJt6R0uuDoxvM4ry5/view?usp=sharing"
+    },
+    { 
       a: "Event Organizer", 
       b: "Arts Society", 
       c: "09/2024 - Present", 
-      d: "Serving as Event Organizer for the Arts Society of CEG." 
+      d: "Coordinated and co-organized Techofes-77, collaborating with clubs and campus departments to ensure successful execution of the intercollege cultural fest.",
+      link : "https://drive.google.com/file/d/11mlP4-7_24yZw_IYRMOKvIC8qn3D63dD/view?usp=sharing"
     },
     {
       a: "Student Volunteer",
       b: "SAAS - CEG",
-      c: "2024/08 - 2024/09",
+      c: "2025/07 - 2025/08",
       d: "Volunteered during the admission process for incoming first-year students.",
     },
     { 
       a: "Technical Operations Organizer", 
       b: "Ceg Tech Forum", 
       c: "09/2024 - 03/2025", 
-      d: "Selected as TechOps Organizer for CEG Tech Forum." 
-    },
-    { 
-      a: "HR Organizer", 
-      b: "ACM - CEG", 
-      c: "05/2024 - Present", 
-      d: "Serving as HR Organizer for ACM Student chapter of CEG." 
+      d: "Contributed to the development of frontend website page (game UI) as part of Kurukshetra'25 site (An International Techno-Management Fest).",
+      link : "https://drive.google.com/file/d/19HdygshgFDRaSG4k3nLSK62mXaKyNFFQ/view?usp=sharing"
     },
   ];
 

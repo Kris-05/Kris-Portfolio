@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { GiFastArrow } from "react-icons/gi";
 import { RiUserLocationFill } from "react-icons/ri";
-import { hobbiesIcon } from "./TechIcons";
+import { hobbiesIcon } from "./TechIcons.jsx";
 import { motion } from "framer-motion";
 
 const About = () => {

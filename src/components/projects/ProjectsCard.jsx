@@ -45,7 +45,7 @@ const ProjectsCard = ({
 
       <div
         className="h-52 md:h-72 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{ background: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center" }}
       >
         <div
           className="items-center justify-center rounded-t-xl gap-3 absolute top-0 left-0 w-full h-full bg-[#181818] opacity-0 hidden

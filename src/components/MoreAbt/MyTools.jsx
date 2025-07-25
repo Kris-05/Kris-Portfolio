@@ -1,7 +1,7 @@
 import React from 'react'
-import {techIcons} from './TechIcons.jsx'
+import { techIcons } from './TechIcons.jsx'
 import { motion } from 'framer-motion'
-import Tape from '../Tape.jsx'
+// import Tape from '../Tape.jsx'
 
 const MyTools = () => {
   return (

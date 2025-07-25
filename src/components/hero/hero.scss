@@ -1,0 +1,76 @@
+@use "../../App.scss" as *;
+
+.wrap{
+  // background: linear-gradient(180deg, #0c0c1d, #111132);
+  display: flex;
+  flex-direction: column;
+  
+  .textContainer{
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include mobile {
+      align-self: flex-start;
+      text-align: left;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    p {
+      font-weight: 200;
+      font-size: 15px;
+      color: gray;
+      text-align: center;
+      margin: auto;
+      // text-align: right;
+    }
+
+    hr {
+      width: 400px;
+      border: none;
+      margin-right: 10px;
+      border-top: 0.5px solid gray;
+
+      @include mobile{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .heroContainer{
+    flex: 5;
+    width: 100%;
+    max-width: 1366px;
+    margin: auto; /* Centers it */
+    padding: 20px;
+    // background: #000;
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+
+    @include mobile{
+      flex-direction: column;
+    }
+
+    // .hero{
+    //   // flex: 3;
+    //   background: #a84f4f;
+    //   border-radius: 2%;
+    // }
+
+    // .abt{
+    //   // flex: 7;
+    //   background: #4fa898;
+    //   border-radius: 2%;
+    // }
+  }
+}
+

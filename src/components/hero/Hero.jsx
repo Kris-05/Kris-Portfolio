@@ -213,7 +213,7 @@ const Hero = () => {
             variants={textVariants}
           >
             <motion.a
-              href="/Krisna-Final-Resume.pdf"
+              href="/Krisna-SWE-Resume.pdf"
               // href="/krisna-resume-2025.pdf"
               // download="VJ_Krisna_Resume.pdf"
               target="_blank"

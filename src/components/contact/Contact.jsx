@@ -132,7 +132,7 @@ const Contact = () => {
             Send Message
           </motion.button>
           {error && "Error"}
-          {success && "Success"}
+          {success && "Result == Success :)"}
         </form>
       </motion.div>
       <p className="copyright">~ Krisna VJ ~</p>

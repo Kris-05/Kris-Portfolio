@@ -63,6 +63,12 @@ const Qualifications = () => {
     //   c: "07/2025 - Present", 
     //   d: "Appointed as Placement Ambassador for CUIC to represent our dept"
     // },
+    {
+      a: "Technical Design Core",
+      b: "SAAS - CEG",
+      c: "07/2025 - Present",
+      d: "Developed Community Portal for SAAS, websites for major cultural fests and a query portal for the college.",
+    },
     { 
       a: "Director of Logistics", 
       b: "ACM - CEG", 
@@ -72,17 +78,18 @@ const Qualifications = () => {
     },
     { 
       a: "Event Organizer", 
-      b: "Arts Society", 
-      c: "09/2024 - Present", 
+      // b: "Arts Society", 
+      b: "SAAS - CEG", 
+      c: "09/2024 - 06/2025", 
       d: "Coordinated and co-organized Techofes-77, collaborating with clubs and campus departments to ensure successful execution of the intercollege cultural fest.",
       link : "https://drive.google.com/file/d/11mlP4-7_24yZw_IYRMOKvIC8qn3D63dD/view?usp=sharing"
     },
-    {
-      a: "Student Volunteer",
-      b: "SAAS - CEG",
-      c: "2025/07 - 2025/08",
-      d: "Volunteered during the admission process for incoming first-year students.",
-    },
+    // {
+    //   a: "Student Volunteer",
+    //   b: "SAAS - CEG",
+    //   c: "2025/07 - 2025/08",
+    //   d: "Volunteered during the admission process for incoming first-year students.",
+    // },
     { 
       a: "Technical Operations Organizer", 
       b: "Ceg Tech Forum", 
